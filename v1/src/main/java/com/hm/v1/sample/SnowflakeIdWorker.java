@@ -14,7 +14,7 @@ public  class SnowflakeIdWorker {
 
     // 序列号占用的位数
     private final long sequenceBits = 12L;
-    // 数据中心ID占用的位数
+    // 数据中心ID占用的位数,可以理解为有些大厂会使用机房，机房id
     private final long datacenterIdBits = 5L;
     // 工作机器ID占用的位数
     private final long workerIdBits = 5L;
